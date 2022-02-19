@@ -1,0 +1,192 @@
+
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: #EFEFEF;
+	padding: 0;
+	margin: 0;
+	min-height: 100vR;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 16px;
+	display: flex;
+	justify-content: center;
+}
+
+.instagram-area{
+	width: 100%;
+	min-height: 100vR;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.instagram-fone{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+}
+
+.instagram-fone img{
+	height: 34rem;
+}
+
+.fone{
+	min-height: 34rem;
+	width: 100%;
+}
+
+.instagram-login{
+	min-height: 34rem;
+	width: 48%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	
+}
+
+.instagram-logo{
+	width: 55%;
+	opacity: 1;
+}
+
+.login{
+	background-color: #FFFFFF;
+	border: 1px solid #C9C9C9;
+	margin-top: 3.5rem;
+	width: 52%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+
+}
+.login a{
+	text-decoration: none;
+}
+
+.area-login{
+	margin-top: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.login-usuario{
+	margin-bottom: 5px;
+}
+
+.login-usuario, .login-senha, .login-botao{
+	height: 2.5rem;
+	width: 17rem;
+	font-size: 13px;
+	padding-left: 5px;
+	background: #F2F2F2;
+	border: 1px solid #BFBFBF;
+	border-radius: 3px;
+}
+
+.login-botao{
+	background-color: #75CEFF;
+	color: white;
+	border: 1px solid #75CEFF;
+	margin-top: 10px;
+	width: 100%;
+	height: 2rem;
+	cursor: pointer;
+}
+
+.login-tabela{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.login-tabela2{
+	color: #BABABA;
+	padding: 0px 10px;
+
+}
+
+.login-tabela1, .login-tabela3{
+	background-color: #BABABA;
+	height: 1px;
+	width: 100px;
+}
+
+.login-facebook{
+	font-size: 13.5px;
+	color: #004989;
+}
+
+.login-facebook-icon{
+	height: 16px;
+	padding-right: 7px;
+}
+
+.login-facebook a, .login-esqueceu a{
+	color: #004989;
+}
+
+.login-esqueceu{
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+	font-size: 12px;
+	color: #004989;
+}
+.registrar{
+	background-color: #FCFCFC;
+	height: 4rem;
+	width: 52%;
+	margin-top: 10px;
+	border: 1px solid #C9C9C9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 14px;
+	text-align: center;
+}
+
+.registrar a{
+	text-decoration: none;
+}
+
+.ii{
+	color: #017FEE;
+}
+
+.aplicacao{
+	width: 50%;
+}
+
+.links p{
+	font-size: 13px;
+}
+
+.links{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+	padding: 1.3rem 0;
+}
+
+.dowloand{
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 1rem;
+}
+
+.dowloand img{
+	height: 3rem;
+	padding: 3px;
+}
